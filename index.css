@@ -2,4 +2,14 @@
     background-image: url(./img/h_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding: 50px;
+}
+.welcome-message{
+    padding: 30px;
+}
+.welcome .welcome-message img{
+    margin-top: 30px;
 }
