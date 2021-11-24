@@ -39,3 +39,21 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.portfolio{
+    text-align: center;
+}
+.portfolio-icon-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.portfolio-icon-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.portfolio .portfolio-icon img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
