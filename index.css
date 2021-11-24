@@ -4,17 +4,29 @@
     background-size: cover;
     color: white;
     text-align: center;
-    height: 300px;
+    height: 500px;
     padding: 50px;
 }
 .welcome-message{
+    margin-top: 50px;
     padding: 30px;
 }
 .welcome .welcome-message img{
-    margin-top: 30px;
+    margin-top: 150px;
 }
 .about{
     text-align: center;
-    margin: 30px;
-
+    padding: 30px;
+    margin-top: 50px;
+    height: 300px;
+}
+.services{
+    text-align: center;
+    color: white;
+    background-image: url(./img/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    margin-top: 50px;
+    height: 300px;
 }
