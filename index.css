@@ -86,3 +86,12 @@
     display: none;
     text-align: center;
 }
+.design{
+    cursor: pointer;
+}
+.development{
+    cursor: pointer;
+}
+.product-management{
+    cursor: pointer;
+}
