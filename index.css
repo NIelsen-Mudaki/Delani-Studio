@@ -57,3 +57,20 @@
     width: 200px;
     padding: 20px;
 }
+.contact-us{
+    background-image: url(./img/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+#identity{
+    width: 350px;
+    height: 20px;
+    margin: 20px;
+}
+#message{
+    width: 800px;
+    height: 200px;
+}
