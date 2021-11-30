@@ -65,14 +65,18 @@
     color: white;
     text-align: center;
 }
-#identity{
+.identity{
     width: 350px;
     height: 20px;
     margin: 20px;
+    margin-right: 300px;
+    display: inline;
+    justify-content: space-around;
+    margin: 30px;
 }
 #message{
     width: 800px;
-    height: 200px;
+    height: 300px;
 }
 .social{
     text-align: center;

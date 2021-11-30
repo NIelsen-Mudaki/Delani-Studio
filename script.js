@@ -15,10 +15,30 @@ $(document).ready(function(){
     });
 
 
-    $('#portfolio-icon img').hover(function(){
+    $('#portfolio-icon img').hover(function(e){
+
+        e.preventDefault();
+
         $(this).animate({'zoom': 1.2}, 'slow');
 
         $(this).animate({'zoom': 1}, 'slow');
+
+    });
+
+    $('#identity').submit(function(e){
+        e.preventDefault();
+
+        var nameInput = $('#name').val();
+        var emailInput = $('#email').val();
+        var messageInput = $('#message').val();
+
+        $('#submit').click(function(){
+            alert('Hello ' + nameInput + ' your message has been received by our team. Thank you for reaching out to us.')
+        })
+
+        $('#name').val('');
+        $('#email').val('');
+        $('#message').val('');
 
     });
 });
