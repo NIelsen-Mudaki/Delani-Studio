@@ -88,10 +88,13 @@
 }
 .design{
     cursor: pointer;
+    width: 300px;
 }
 .development{
     cursor: pointer;
+    width: 300px;
 }
 .product-management{
     cursor: pointer;
+    width: 300px;
 }
