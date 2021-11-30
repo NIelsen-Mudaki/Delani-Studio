@@ -25,19 +25,15 @@ $(document).ready(function(){
 
     });
 
-    $('#identity').submit(function(){
+    var nameInput = $('#name').val();
+    var emailInput = $('#email').val();
+    var messageInput = $('#message').val();
 
-        var nameInput = $('#name').val();
-        var emailInput = $('#email').val();
-        var messageInput = $('#message').val();
+    $('#name').val('');
+    $('#email').val('');
+    $('#message').val('');
 
-        $('#submit').click(function(){
-            alert('Hello ' + nameInput + ' your message has been received by our team. Thank you for reaching out to us.');
-        });
-
-        $('#name').val('');
-        $('#email').val('');
-        $('#message').val('');
-
+    $('#submit').click(function(){
+        alert('Hello ' + nameInput + ' your message has been received by our team. Thank you for reaching out to us.');
     });
 });
