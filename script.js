@@ -13,4 +13,12 @@ $(document).ready(function(){
         $('#des-showing-product-management').toggle();
         $('#des-hidden-product-management').toggle();
     });
+
+
+    $('#portfolio-icon img').hover(function(){
+        $(this).animate({'zoom': 1.2}, 'slow');
+
+        $(this).animate({'zoom': 1}, 'slow');
+
+    });
 });
