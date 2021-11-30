@@ -25,16 +25,15 @@ $(document).ready(function(){
 
     });
 
-    $('#identity').submit(function(e){
-        e.preventDefault();
+    $('#identity').submit(function(){
 
         var nameInput = $('#name').val();
         var emailInput = $('#email').val();
         var messageInput = $('#message').val();
 
         $('#submit').click(function(){
-            alert('Hello ' + nameInput + ' your message has been received by our team. Thank you for reaching out to us.')
-        })
+            alert('Hello ' + nameInput + ' your message has been received by our team. Thank you for reaching out to us.');
+        });
 
         $('#name').val('');
         $('#email').val('');
